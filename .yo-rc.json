@@ -1,0 +1,35 @@
+{
+  "generator-jbooter": {
+    "promptValues": {
+      "packageName": "co.cool.openlearn.app"
+    },
+    "jbooterVersion": "1.5.3",
+    "baseName": "openlearn",
+    "packageName": "co.cool.openlearn.app",
+    "packageFolder": "co/cool/openlearn/app",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "cf324e1e7818332858dee55e235b00fec66e4dc6",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jbtPrefix": "jbt",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "clientPackageManager": "yarn"
+  }
+}
